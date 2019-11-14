@@ -9,7 +9,7 @@ class MainContext extends Component {
                 <div className='card-wrapper'>
                     <section className='main-text'>
                         <div>
-                        <div className="slides">{`${this.props.index + 1}/25`}</div>
+                            <div className="slides">{`${this.props.index + 1}/25`}</div>
                         </div>
                         <div className='fullname'>
                             {person.name.first} {person.name.last}
