@@ -1,5 +1,7 @@
 .App {
+  background-color: rgb(33, 27, 27);
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -19,4 +21,34 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-buttons {
+  background: transparent;
+  display: flex;
+  margin-top: 15px;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-buttons:hover {
+  cursor: pointer;
+}
+
+.center-buttons {
+  background: rgb(67, 150, 245);
+  font-size: 1rem;
+  border-radius: 15px;
+  margin: 10px 10px 0px 10px;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
 }
